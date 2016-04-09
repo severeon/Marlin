@@ -107,7 +107,7 @@
 // The following define selects which electronics board you have.
 // Please choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
-  #define MOTHERBOARD BBOARD_MINIRAMBO
+  #define MOTHERBOARD BOARD_RAMPS_14_EEB
 #endif
 
 // Optional custom name for your RepStrap or other custom machine
@@ -963,4 +963,6 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = false; // set to true to invert the l
 #include "Configuration_adv.h"
 #include "thermistortables.h"
 
-#endif //CONFIGURATION_H
+#endif //CONFIGURATION_H
+
+
